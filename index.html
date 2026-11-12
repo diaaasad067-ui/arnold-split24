@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101410">
+  <title>Arnold Split | Mody Diaa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="brand-mark">MD</span><span>MODY <b>DIAA</b></span></a>
+    <nav><a href="#schedule">الجدول</a><a href="#about">عن النظام</a><a href="#tips">نصائح</a></nav>
+    <button class="theme-btn" id="themeBtn" aria-label="تغيير المظهر">☼</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> TRAIN SMART • STAY CONSISTENT</p>
+        <h1>ARNOLD<br><em>SPLIT</em></h1>
+        <p class="hero-text">نظّم تمرينك، تابع أيامك، وخلي الاستمرارية هي سر تقدمك.</p>
+        <a class="primary-btn" href="#schedule">استكشف الجدول <span>←</span></a>
+      </div>
+      <div class="hero-art" aria-label="رسم توضيحي لأوزان الجيم">
+        <div class="ring ring-one"></div><div class="ring ring-two"></div>
+        <div class="weight"><i></i><b></b><i></i></div>
+        <div class="hero-tag">DISCIPLINE<br><strong>OVER EXCUSES</strong></div>
+        <span class="art-number">01 / 06</span>
+      </div>
+      <div class="hero-foot"><span>WORKOUT PLANNER</span><span>DESIGNED BY <b>MODY DIAA</b></span></div>
+    </section>
+
+    <section class="section" id="schedule">
+      <div class="section-heading">
+        <div><p class="eyebrow">YOUR WEEKLY PLAN</p><h2>جدول <em>التمرين</em></h2></div>
+        <p class="section-note">اختار اليوم عشان تشوف تفاصيله</p>
+      </div>
+      <div class="week-grid" id="weekGrid"></div>
+      <article class="day-detail" id="dayDetail" aria-live="polite"></article>
+    </section>
+
+    <section class="info-grid" id="about">
+      <article class="info-card accent-card">
+        <span class="info-icon">✦</span><p class="eyebrow">ABOUT THE SPLIT</p>
+        <h3>يعني إيه<br>Arnold Split؟</h3>
+        <p>تقسيمة تدريب بتوزّع مجموعات عضلية مختلفة على أيام الأسبوع. الجدول هنا نموذج مبسّط قابل للتعديل حسب الخبرة والاستشفاء.</p>
+      </article>
+      <article class="info-card" id="tips">
+        <span class="info-icon">↗</span><p class="eyebrow">SMART TRAINING</p>
+        <h3>تمرّن بذكاء</h3>
+        <ul>
+          <li>ابدأ بإحماء خفيف وحركات تحضيرية.</li>
+          <li>اختار مقاومة تقدر تتحكم فيها بتكنيك سليم.</li>
+          <li>اهتم بالنوم والراحة والأكل المتوازن.</li>
+          <li>لو فيه ألم أو دوخة، أوقف التمرين واطلب مساعدة مختص.</li>
+        </ul>
+      </article>
+    </section>
+    <p class="safety-note">ملاحظة: ده نموذج عام للتنظيم وليس برنامجًا طبيًا أو وصفة تدريب شخصية. لو لسه في مرحلة النمو، خليك تحت إشراف مدرب مؤهل أو شخص بالغ مسؤول، وابدأ بأحمال مناسبة من غير اختبارات أوزان قصوى.</p>
+  </main>
+
+  <footer><div class="brand"><span class="brand-mark">MD</span><span>MODY <b>DIAA</b></span></div><p>DESIGNED BY <strong>MODY DIAA</strong></p><span>© <span id="year"></span> • ALL RIGHTS RESERVED</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
